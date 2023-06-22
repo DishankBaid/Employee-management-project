@@ -1,0 +1,18 @@
+Spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/project-01
+    username: root
+    password : DishankBaid@05
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  hibernate:
+    show-sql:true
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  mvc:
+    view:
+      prefix: /template/
+      suffix: .html
